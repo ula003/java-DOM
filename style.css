@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:20px
+}
+.main_text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    span{
+        font-size: 18px;
+        text-align: center;
+    }
+}
+.item_description{
+    display: flex;
+    align-items: center;
+    gap:30px
+    
+}
+.name_price{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    .color{
+        color: #0071E3;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .price_list{
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+.color_selector{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    button{
+        background-color: #CFE7FF;
+        color:#797979;
+        border-radius: 10px;
+        padding: 10px 29px;
+        border: transparent;
+    }
+}
+.memory_selector{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    button{
+        padding-left: 10px;
+        background-color: white;
+        width: 321px;
+        height: 57px;
+        border: #CFE7FF 2px solid;
+        border-radius: 10px;
+        text-align: left;
+        font-weight: bold;
+    }
+}
+.active_button_color{
+    border-radius: 10px !important;
+    padding: 10px 29px !important;
+    border: transparent !important;
+    color: white !important;
+    background-color:#0071E3 !important;
+}
+.active_memory_card{
+        padding-left: 10px !important;
+        background-color: white !important;
+        width: 321px !important;
+        height: 57px !important;
+        border-radius: 10px !important;
+        text-align: left !important;
+        font-weight: bold !important;
+        border: #0071E3 4px solid !important;
+}
